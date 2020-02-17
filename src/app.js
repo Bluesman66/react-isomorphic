@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import Gallery from './Gallery'
 
-export default class App extends Component {
-
-  render() {
-    return (
-      <div>
-        Hello!
-      </div>
-    )
-  }
+class App extends Component {
+	render() {
+		return <Gallery />
+	}
 }
+
+export default App;
